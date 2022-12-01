@@ -5,9 +5,11 @@ Here are my solutions for Advent of Code 2022. I have written them in C++ to bec
 https://adventofcode.com/
 
 ## Stats
-      -------Part 1--------   -------Part 2--------
-Day       Time  Rank  Score       Time  Rank  Score
-  1   00:10:42  5581      0   00:19:53  6730      0
+
+|       | Part 1   |      |       | Part 2   |      |       |
+|-------|----------|------|-------|----------|------|-------|
+|       | Time     | Rank | Score | Time     | Rank | Score |
+| Day 1 | 00:10:42 | 5581 | 0     | 00:19:53 | 6730 | 0     |
 
 ## Run Locally
 
