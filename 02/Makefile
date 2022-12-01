@@ -6,7 +6,7 @@ CC = clang++
 # -g					+adds debug info to executable file
 # -Wall				+turns on compiler warnings
 # -Wextra			+more warnings
-# -Wpedantic	+helps display warnings
+# -Wpedantic	+more warnings
 # 
 CFLAGS = -std=c++17 -g -Wall -Wextra -Wpedantic
 
@@ -15,10 +15,8 @@ build: main
 run: build
 	./main.out
 
-.PHONY: all
 all: clean main
 
-.PHONY: clean
 clean:
 	rm -f *.out *.o
 
