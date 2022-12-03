@@ -11,7 +11,7 @@ https://adventofcode.com/
 |       | Time     | Rank | Score | Time     | Rank | Score |
 | Day 1 | 00:10:42 | 5581 | 0     | 00:19:53 | 6730 | 0     |
 | Day 2 | 00:18:49 | 7702 | 0     | 00:25:09 | 6511 |  0    | 
-
+| Day 3 | 00:24:15 | 8597 | 0     | 00:36:38 | 8156 |  0    |
 ## Notes on My Approach to each problem
 
 #### Day 1
@@ -23,6 +23,12 @@ https://adventofcode.com/
 #### Day 2 
 - This day should've been faster, many typos
 - using a switch case if probably better, but am not familiar in c++
+
+#### Day 3
+- Took a lot more time today
+- Gets a warning a the comparison
+- Probably could use an array of size 52 instead of map for keeping track of characters
+- That would save on memory since index will equal priority
 
 ## Run Locally
 
