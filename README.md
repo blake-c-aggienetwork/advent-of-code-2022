@@ -2,6 +2,8 @@
 
 Here are my solutions for Advent of Code 2022. I have written them in C++ to become more proficient in the language and compete in a private leaderboard from an internet community.
 
+The code itself is not particularly good since I have not written in C++ since school and the goal is to solve the question as fast as possible. 
+
 https://adventofcode.com/
 
 ## Stats
