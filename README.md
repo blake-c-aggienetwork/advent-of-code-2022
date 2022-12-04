@@ -36,7 +36,7 @@ https://adventofcode.com/
 
 #### Day 4
 - Took a long time to figure out how string splitting works in C++
-- input reading is hard in this language
+- I have since looked up better approaches for input reading
 
 ## Run Locally
 
