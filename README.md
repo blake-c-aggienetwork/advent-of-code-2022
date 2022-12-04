@@ -12,6 +12,7 @@ https://adventofcode.com/
 | Day 1 | 00:10:42 | 5581 | 0     | 00:19:53 | 6730 | 0     |
 | Day 2 | 00:18:49 | 7702 | 0     | 00:25:09 | 6511 |  0    | 
 | Day 3 | 00:24:15 | 8597 | 0     | 00:36:38 | 8156 |  0    |
+| Day 4 | 00:32:13 | 12036|     0 | 00:46:51 | 12773|      0|
 ## Notes on My Approach to each problem
 
 #### Day 1
@@ -29,6 +30,11 @@ https://adventofcode.com/
 - Gets a warning a the comparison
 - Probably could use an array of size 52 instead of map for keeping track of characters
 - That would save on memory since index will equal priority
+- I don't need to use a frequency map, just a bool to keep track of seen chars
+
+#### Day 4
+- Took a long time to figure out how string splitting works in C++
+- input reading is hard in this language
 
 ## Run Locally
 
