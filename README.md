@@ -2,11 +2,11 @@
 
 Here are my solutions for Advent of Code 2022. I have written them in C++ to become more proficient in the language and compete in a private leaderboard from an internet community.
 
-The code itself is not particularly good since I have not written in C++ since school and the goal is to solve the question as fast as possible. 
+The code itself is not particularly good since I have not written in C++ for a long time and the goal is to solve the question as fast as possible. 
 
 https://adventofcode.com/
 
-## Stats
+## Global Ranking by Time and Stats
 
 |       | Part 1   |      |       | Part 2   |      |       |
 |-------|----------|------|-------|----------|------|-------|
@@ -15,6 +15,8 @@ https://adventofcode.com/
 | Day 2 | 00:18:49 | 7702 | 0     | 00:25:09 | 6511 |  0    | 
 | Day 3 | 00:24:15 | 8597 | 0     | 00:36:38 | 8156 |  0    |
 | Day 4 | 00:32:13 | 12036|     0 | 00:46:51 | 12773|      0|
+| Day 5 |  00:34:35| 6628 |    0  | 00:38:33 |  6066|      0|
+
 ## Notes on My Approach to each problem
 
 #### Day 1
@@ -36,7 +38,14 @@ https://adventofcode.com/
 
 #### Day 4
 - Took a long time to figure out how string splitting works in C++
-- I have since looked up better approaches for input reading
+- Using a set for Part2 intersection checking is unnecessary  
+- I have since looked up better approaches for input reading, sscanf() really simplifies this
+
+#### Day 5
+- I gave up on parsing this immediately
+- Actually problem not too hard once the input is parsed
+- I went up in placement a lot globally
+
 
 ## Run Locally
 
