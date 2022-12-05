@@ -43,7 +43,7 @@ https://adventofcode.com/
 
 #### Day 5
 - I gave up on parsing this immediately
-- Actually problem not too hard once the input is parsed
+- Actual problem not too hard once the input is parsed
 - I went up in placement a lot globally
 
 
