@@ -16,6 +16,7 @@ https://adventofcode.com/
 | Day 3 | 00:24:15 | 8597 | 0     | 00:36:38 | 8156 |  0    |
 | Day 4 | 00:32:13 | 12036|     0 | 00:46:51 | 12773|      0|
 | Day 5 |  00:34:35| 6628 |    0  | 00:38:33 |  6066|      0|
+| Day 6 | 00:44:13 | 16782|      0| 00:47:10 | 16107|      0|
 
 ## Notes on My Approach to each problem
 
@@ -45,6 +46,11 @@ https://adventofcode.com/
 - I gave up on parsing this immediately
 - Actual problem not too hard once the input is parsed
 - I went up in placement a lot globally
+- Went back and figured out how to parse the input nicely on day 6
+
+#### Day 6
+- Recognized this as a two pointers sliding window problem
+- Still took too much time on this
 
 
 ## Run Locally

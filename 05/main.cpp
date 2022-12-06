@@ -50,34 +50,53 @@ void moveCrates9001(int amount, int from, int to, vector<vector<char>> &stacks){
 
 }
 
-int main(){
+int main(){  
   ifstream indata;
   indata.open("input.txt");
   string line = "";
-  // getline(indata,line);
 
-  // Lol idk how to parse this
-  vector<vector<char>> stacks;
-  stacks.push_back({'S','M','R','N','W','J','V','T'});
-  stacks.push_back({'B','W','D','J','Q','P','C','V'});
-  stacks.push_back({'B','J','F','H','D','R','P'});
-  stacks.push_back({'F','R','P','B','M','N','D'});
-  stacks.push_back({'H','V','R','P','T','B'});
-  stacks.push_back({'C','B','P','T'});
-  stacks.push_back({'B','J','R','P','L'});
-  stacks.push_back({'N','C','S','L','T','Z','B','W'});
-  stacks.push_back({'L','S','G'});
-  
+  getline(indata,line);
+  vector<vector<char>> stacks((line.size()+1)/4);
+  indata.clear();
+  indata.seekg(0);
+
+  for(string line=""; getline(indata,line) && !line.empty(); ){
+    unsigned long i = 1;
+    while(i < line.size()){
+      if(line[i] == '1'){
+        break;
+      }
+      if(line[i] != ' '){
+        stacks[(i-1)/4].push_back(line[i]);
+      }
+      i += 4;
+    }
+  }
+
+  for(vector<char> &stack : stacks){
+    reverse(stack.begin(), stack.end());
+  }
+
+  vector<vector<char>> stacks2(stacks);
+
   while(getline(indata,line)){
     int amount, from, to;
     sscanf(line.c_str(), "move %i from %i to %i", &amount, &from, &to);
-    moveCrates9001(amount,from,to,stacks);
+    moveCrates(amount,from,to,stacks);
+    moveCrates9001(amount,from,to,stacks2);
   }
-  
-  for(auto item : stacks){
-    printf("%c", item.back());
+
+  cout << "Silver: " << endl;
+  for(auto item: stacks){
+    cout << item.back();
   }
   cout << endl;
 
+  cout << "Gold: " << endl;
+  for(auto item: stacks2){
+    cout << item.back();
+  }
+  cout << endl;
 
+  return 0;
 }
