@@ -3,3 +3,5 @@ input.txt
 .vscode/settings.json
 .DS_Store
 */.DS_Store
+*.ipynb
+07/oldAttempt.cpp

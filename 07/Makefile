@@ -8,20 +8,21 @@ CC = clang++
 # -Wextra			+more warnings
 # -Wpedantic	+more warnings
 # 
-CFLAGS = -std=c++17 -g -Wall -Wextra -Wpedantic
+CFLAGS = -std=c++17 -Og -g -Wall -Wextra -Wpedantic
+CFLAGSSPEED = -Ofast -std=c++17 -g -Wall -Wextra -Wpedantic
 
 build: main
 
 build-fast:
-	$(CC) main.cpp -c $(CFLAGS) -Ofast -o main.o
-	$(CC) utils.cpp -c $(CFLAGS) -Ofast -o utils.o
-	$(CC) main.o $(CFLAGS) -Ofast -o main.out
+	$(CC) main.cpp -c $(CFLAGSSPEED) -o main.o
+	$(CC) utils.cpp -c $(CFLAGSSPEED) -o utils.o
+	$(CC) main.o $(CFLAGSSPEED) -o main.out
 
 run: build
 	./main.out
 
-time: build
-	time /.main.out
+time: build-fast
+	time ./main.out
 
 all: clean main
 

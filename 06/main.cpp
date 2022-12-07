@@ -13,7 +13,7 @@
 using namespace std;
 
 int findMessageStart(int markerLength){
-  ifstream f("input.txt");
+  ifstream f("input.txt",ifstream::in);
   string line = "";
   getline(f,line);
 
@@ -21,6 +21,9 @@ int findMessageStart(int markerLength){
 
   int left = 0, right = 0;
   while(right-left < markerLength){
+    if(right > (int)line.size()){
+      return -1;
+    }
     if(seenMap[line[right]] == false){
       seenMap[line[right]] = true;
     }else{
@@ -33,6 +36,7 @@ int findMessageStart(int markerLength){
     }
     right++;
   }
+  f.close();
   return right;
 }
 
