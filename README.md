@@ -17,6 +17,7 @@ https://adventofcode.com/
 | Day 4 | 00:32:13 | 12036|     0 | 00:46:51 | 12773|      0|
 | Day 5 |  00:34:35| 6628 |    0  | 00:38:33 |  6066|      0|
 | Day 6 | 00:44:13 | 16782|      0| 00:47:10 | 16107|      0|
+| Day 7 |  01:21:27|  8271|     0 | 12:45:00 | 42901|     0 |
 
 ## Notes on My Approach to each problem
 
@@ -51,6 +52,11 @@ https://adventofcode.com/
 #### Day 6
 - Recognized this as a two pointers sliding window problem
 - Still took too much time on this
+
+#### Day 7
+- Had to use a python script
+- Went back the next day and did in in C++ later
+- Faced issue where there are multiple folders with same name but different path
 
 
 ## Run Locally
