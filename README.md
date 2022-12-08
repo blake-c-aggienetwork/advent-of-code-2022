@@ -18,6 +18,8 @@ https://adventofcode.com/
 | Day 5 |  00:34:35| 6628 |    0  | 00:38:33 |  6066|      0|
 | Day 6 | 00:44:13 | 16782|      0| 00:47:10 | 16107|      0|
 | Day 7 |  01:21:27|  8271|     0 | 12:45:00 | 42901|     0 |
+| Day 8 |  01:06:58| 11252|     0 | 02:24:00 | 13555|     0 |
+
 
 ## Notes on My Approach to each problem
 
@@ -58,6 +60,9 @@ https://adventofcode.com/
 - Went back the next day and did in in C++ later
 - Faced issue where there are multiple folders with same name but different path
 
+#### Day 8
+- Took a while to figure out edge cases for part 1 and part 2
+- Would've been more effective to draw out the problem and really think about cases
 
 ## Run Locally
 
