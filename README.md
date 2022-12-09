@@ -19,7 +19,7 @@ https://adventofcode.com/
 | Day 6 | 00:44:13 | 16782|      0| 00:47:10 | 16107|      0|
 | Day 7 |  01:21:27|  8271|     0 | 12:45:00 | 42901|     0 |
 | Day 8 |  01:06:58| 11252|     0 | 02:24:00 | 13555|     0 |
-
+| Day 9 |  01:05:57|  8973|     0 | 02:04:26 | 8643 |     0 |
 
 ## Notes on My Approach to each problem
 
@@ -63,6 +63,11 @@ https://adventofcode.com/
 #### Day 8
 - Took a while to figure out edge cases for part 1 and part 2
 - Would've been more effective to draw out the problem and really think about cases
+
+#### Day 9
+- Very difficult to understand how the updateTailPosition() function should work
+- Function went through many different implementations
+- Had to draw it out
 
 ## Run Locally
 
