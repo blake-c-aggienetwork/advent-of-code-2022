@@ -6,7 +6,7 @@ The code itself is not particularly good since I have not written in C++ for a l
 
 https://adventofcode.com/
 
-## Global Ranking by Time and Stats
+## Global Ranking by Time
 
 |       | Part 1   |      |       | Part 2   |      |       |
 |-------|----------|------|-------|----------|------|-------|
@@ -20,6 +20,9 @@ https://adventofcode.com/
 | Day 7 |  01:21:27|  8271|     0 | 12:45:00 | 42901|     0 |
 | Day 8 |  01:06:58| 11252|     0 | 02:24:00 | 13555|     0 |
 | Day 9 |  01:05:57|  8973|     0 | 02:04:26 | 8643 |     0 |
+| Day 10|  00:29:41| 6257 |      0| 01:34:44 |  9195|      0|
+| Day 11|  01:20:11|  7530|     0 | 02:03:31 |  6108|      0|
+
 
 ## Notes on My Approach to each problem
 
@@ -68,6 +71,18 @@ https://adventofcode.com/
 - Very difficult to understand how the updateTailPosition() function should work
 - Function went through many different implementations
 - Had to draw it out
+
+#### Day 10
+- Kind of tricky to understand what part 2 is even asking
+- Off by 1 errors are a pain to debug
+- It actually doesn't print the last letter correctly. I just guessed the letter that looked most similar
+- Still not sure what is causing this issue
+
+#### Day 11
+- Hardcoded the input to avoid the advent of parsing
+- Part 1 not that hard
+- Part 2 was only solved in time because I saw on a message board to modulo the worry values by the product of all test values
+- I would not have decided to do that in 1 million years
 
 ## Run Locally
 
