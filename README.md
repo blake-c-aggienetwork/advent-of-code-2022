@@ -22,6 +22,8 @@ https://adventofcode.com/
 | Day 9 |  01:05:57|  8973|     0 | 02:04:26 | 8643 |     0 |
 | Day 10|  00:29:41| 6257 |      0| 01:34:44 |  9195|      0|
 | Day 11|  01:20:11|  7530|     0 | 02:03:31 |  6108|      0|
+| Day 12|  15:42:30| 28770|     0 | 15:48:35 | 27697|      0|
+
 
 
 ## Notes on My Approach to each problem
@@ -83,6 +85,10 @@ https://adventofcode.com/
 - Part 1 not that hard
 - Part 2 was only solved in time because I saw on a message board to modulo the worry values by the product of all test values
 - I would not have decided to do that in 1 million years
+
+#### Day 12
+- Wrote a DFS for this that ended up being too slow, then I went to sleep for work
+- Wrote a BFS the next day
 
 ## Run Locally
 
