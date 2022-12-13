@@ -23,6 +23,7 @@ https://adventofcode.com/
 | Day 10|  00:29:41| 6257 |      0| 01:34:44 |  9195|      0|
 | Day 11|  01:20:11|  7530|     0 | 02:03:31 |  6108|      0|
 | Day 12|  15:42:30| 28770|     0 | 15:48:35 | 27697|      0|
+| Day 13|  14:57:25| 25595|     0 | 15:18:58 | 24622|     0 |
 
 
 
@@ -89,6 +90,11 @@ https://adventofcode.com/
 #### Day 12
 - Wrote a DFS for this that ended up being too slow, then I went to sleep for work
 - Wrote a BFS the next day
+
+#### Day 13
+- Could not figure out how to parse this without looking up help online
+- Solution for part 1 is based off a solution I found, I commented it throughout to fully understand the approach
+- Solution for part 2 is mine and it's fairly slow
 
 ## Run Locally
 

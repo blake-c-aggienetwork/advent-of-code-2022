@@ -59,7 +59,7 @@ int bfs(int row, int col, vector<vector<char>> &elevationMap){
 
     // process
     tile curTile = q.front();
-    printf("visiting: %c at %i,%i\n",curTile.letter,curTile.row,curTile.col);
+    // printf("visiting: %c at %i,%i\n",curTile.letter,curTile.row,curTile.col);
     seenMap[row][col] = 2;
 
     if(curTile.letter == 'E'){
@@ -104,7 +104,7 @@ int main(){
 
   // cout << "starting at " << elevationMap[0][0] << endl;
 
-  // printf("Silver: %i\n", bfs(20,0,elevationMap));
+  printf("Silver: %i\n", bfs(20,0,elevationMap));
 
   int minSteps = INT_MAX;
 
