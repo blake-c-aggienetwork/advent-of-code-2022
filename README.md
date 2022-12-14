@@ -24,6 +24,7 @@ https://adventofcode.com/
 | Day 11|  01:20:11|  7530|     0 | 02:03:31 |  6108|      0|
 | Day 12|  15:42:30| 28770|     0 | 15:48:35 | 27697|      0|
 | Day 13|  14:57:25| 25595|     0 | 15:18:58 | 24622|     0 |
+| Day 14|  01:30:06| 6276 |    0  | 01:41:15 |  5767|     0 |
 
 
 
@@ -95,6 +96,9 @@ https://adventofcode.com/
 - Could not figure out how to parse this without looking up help online
 - Solution for part 1 is based off a solution I found, I commented it throughout to fully understand the approach
 - Solution for part 2 is mine and it's fairly slow
+
+#### Day 14
+- Took a while to write out, but no issues
 
 ## Run Locally
 
