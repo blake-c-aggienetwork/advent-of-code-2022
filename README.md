@@ -25,6 +25,7 @@ https://adventofcode.com/
 | Day 12|  15:42:30| 28770|     0 | 15:48:35 | 27697|      0|
 | Day 13|  14:57:25| 25595|     0 | 15:18:58 | 24622|     0 |
 | Day 14|  01:30:06| 6276 |    0  | 01:41:15 |  5767|     0 |
+| Day 15|  02:00:25| 6769 |    0  | 17:10:34 |18939 |    0  |
 
 
 
@@ -99,6 +100,11 @@ https://adventofcode.com/
 
 #### Day 14
 - Took a while to write out, but no issues
+
+#### Day 15
+- Solved part 1 pretty easily
+- Could not solve part 2 before bed time
+- Spent about 2 hours on part 2 before realizing the issue was the result was too big for an int-- crazy
 
 ## Run Locally
 
